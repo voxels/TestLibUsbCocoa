@@ -198,6 +198,11 @@
 				TargetAttributes = {
 					1E8314DC214763D500961A21 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					1E8314F2214763D700961A21 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -425,7 +430,7 @@
 				CODE_SIGN_ENTITLEMENTS = TestLibUsbCocoa/TestLibUsbCocoa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FTMC23LTVL;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = TestLibUsbCocoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,7 +460,7 @@
 				CODE_SIGN_ENTITLEMENTS = TestLibUsbCocoa/TestLibUsbCocoa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FTMC23LTVL;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = TestLibUsbCocoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
